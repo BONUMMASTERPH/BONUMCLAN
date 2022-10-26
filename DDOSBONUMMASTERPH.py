@@ -875,16 +875,16 @@ def tools():
 def title():
     stdout.write("             "+Fore.LIGHTGREEN_EX            +"        ══╦═════════════════════════════════╦══\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX+"╔═════════╩═════════════════════════════════╩═════════╗\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       TP-Tool                                      "+Fore.LIGHTGREEN_EX  +"║\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       Copyright : Lê Trọng Phúc                   "+Fore.LIGHTGREEN_EX  +" ║\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       Zalo Contact : 0985739109  "+Fore.LIGHTGREEN_EX  +"                  ║\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       Chọn Lệnh 'help'  Để Vào Tool   "+Fore.LIGHTGREEN_EX +"             ║\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       NEW TP-Tool   2022 BY BONUMMASTER                                 "+Fore.LIGHTGREEN_EX  +"║\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       UNDERGROUND SECURITY PH                   "+Fore.LIGHTGREEN_EX  +" ║\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       if the spiderweb unite they can tie up a lion "+Fore.LIGHTGREEN_EX  +"                  ║\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX+"║ "+Fore.LIGHTWHITE_EX   +"       type 'help'  to view main Tool   "+Fore.LIGHTGREEN_EX +"             ║\n")
 
     stdout.write("             "+Fore.LIGHTGREEN_EX+"╚═════════════════════════════════════════════════════╝\n")
     stdout.write("\n")
 ##############################################################################################
 def command():
-    stdout.write(Fore.LIGHTGREEN_EX+"╔═══"+Fore.LIGHTGREEN_EX+"[""Tool"+Fore.LIGHTGREEN_EX+" By "+Fore.LIGHTGREEN_EX+"TP-TOOL"+Fore.CYAN+"]"+Fore.LIGHTGREEN_EX+"\n╚══\x1b[38;2;0;255;189m> "+Fore.WHITE)
+    stdout.write(Fore.LIGHTGREEN_EX+"╔═══"+Fore.LIGHTGREEN_EX+"[""Tool"+Fore.LIGHTGREEN_EX+" By "+Fore.LIGHTGREEN_EX+"DEVILDDOSBYBONUMMASTER"+Fore.CYAN+"]"+Fore.LIGHTGREEN_EX+"\n╚══\x1b[38;2;0;255;189m> "+Fore.WHITE)
     command = input()
     if command == "cls" or command == "clear":
         clear()
@@ -893,9 +893,9 @@ def command():
         help()
     elif command == "credit":
         credit()        
-    elif command == "layer7" or command == "LAYER7" or command == "l7" or command == "L7" or command == "Layer7":
+    elif command == "layer7" or command == "LAYER7" or command == "l7" or command == "DDOSBONUMMASTERL7" or command == "Layer7":
         layer7()
-    elif command == "layer4" or command == "LAYER4" or command == "l4" or command == "L4" or command == "Layer4":
+    elif command == "layer4" or command == "LAYER4" or command == "l4" or command == "DDPSBONUMMASTERL4" or command == "Layer4":
         layer4()
     elif command == "tools" or command == "tool":
         tools()
