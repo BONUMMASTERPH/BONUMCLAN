@@ -1,6 +1,6 @@
 #!/data/data/com.termux
 
-^&]*(?=&lt;li)|Forbidden|forbidden|Not Acceptable|Internal Server Error' | cut -d "<" -f2 | sed 's/li>//g' |  tr -d ',' | tr -d '\0' | sed 's/\r$//')                                      echo -e "${O}Get db_name: ${N}\033[2m$dk"               fi
+| cut -d "<" -f2 | sed 's/li>//g' |  tr -d ',' | tr -d '\0' | sed 's/\r$//')                                      echo -e "${O}Get db_name: ${N}\033[2m$dk"               fi
     fi
        else                                                        echo -e "${N}[${R}INFO${N}] ${R}gagal ambil info server"
     fi                                                         if echo "$dbnya" | grep -Po "Forbidden|forbidden|Not Acceptable|Internal Server Error" >/dev/null;then
